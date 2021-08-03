@@ -16,6 +16,9 @@
   font-weight: 700;
   src: url(../fonts/6xKydSBYKcSV-LCoeQqfX1RYOo3ig4vwlxdr.ttf) format('truetype');
 }
+.container-wrapper-genially{
+  background-image: url("/images/blurred_pyramids.jpg") !important;
+}
 /* .container-wrapper-genially{
   --featured-img: linear-gradient(180deg,transparent,transparent) !important;
   --bg-blend-mode: overlay !important;
