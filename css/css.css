@@ -27,3 +27,6 @@
 }
 
 
+.genially-view-logo , .genially-view-logo_genially-watermark {
+display: none !important;
+}
