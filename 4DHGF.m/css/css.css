@@ -1,0 +1,19 @@
+@font-face {
+  font-family: "Khand";
+  font-style: normal;
+  font-weight: 400;
+  src: url(../fonts/TwMA-IINQlQQ0bpSUnE.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Khand";
+  font-style: normal;
+  font-weight: 700;
+  src: url(../fonts/TwMN-IINQlQQ0bLpd2EwbQI.ttf) format("truetype");
+}
+.container-wrapper-genially {
+  background-image: url("../images/blurred_pyramids.jpg") !important;
+}
+.genially-view-logo,
+.genially-view-logo_genially-watermark {
+  display: none !important;
+}

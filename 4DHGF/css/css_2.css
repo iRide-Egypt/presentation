@@ -1,6 +1,12 @@
 @font-face {
-  font-family: 'Righteous';
+  font-family: 'Josefin Slab';
   font-style: normal;
   font-weight: 400;
-  src: url(../fonts/1cXxaUPXBpj2rGoU7C9WiHGA.ttf) format('truetype');
+  src: url(../fonts/lW-swjwOK3Ps5GSJlNNkMalNpiZe_ldbOR4W71msR349Lw.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Josefin Slab';
+  font-style: normal;
+  font-weight: 700;
+  src: url(../fonts/lW-swjwOK3Ps5GSJlNNkMalNpiZe_ldbOR4W776rR349Lw.ttf) format('truetype');
 }

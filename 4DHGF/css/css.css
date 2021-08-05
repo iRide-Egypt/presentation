@@ -1,35 +1,19 @@
 @font-face {
-  font-family: 'Source Sans Pro';
-  font-style: normal;
-  font-weight: 300;
-  src: url(../fonts/6xKydSBYKcSV-LCoeQqfX1RYOo3ik4zwlxdr.ttf) format('truetype');
-}
-@font-face {
-  font-family: 'Source Sans Pro';
+  font-family: "Khand";
   font-style: normal;
   font-weight: 400;
-  src: url(../fonts/6xK3dSBYKcSV-LCoeQqfX1RYOo3qOK7g.ttf) format('truetype');
+  src: url(../fonts/TwMA-IINQlQQ0bpSUnE.ttf) format("truetype");
 }
 @font-face {
-  font-family: 'Source Sans Pro';
+  font-family: "Khand";
   font-style: normal;
   font-weight: 700;
-  src: url(../fonts/6xKydSBYKcSV-LCoeQqfX1RYOo3ig4vwlxdr.ttf) format('truetype');
+  src: url(../fonts/TwMN-IINQlQQ0bLpd2EwbQI.ttf) format("truetype");
 }
-.container-wrapper-genially{
-  background-image: url("/images/blurred_pyramids.jpg") !important;
+.container-wrapper-genially {
+  background-image: url("../images/blurred_pyramids.jpg") !important;
 }
-/* .container-wrapper-genially{
-  --featured-img: linear-gradient(180deg,transparent,transparent) !important;
-  --bg-blend-mode: overlay !important;
-  background-color: #262626 !important;
-  background-position: top 0px center !important;
-  background-repeat: no-repeat !important;
-  background-image: radial-gradient(50% 50% at top center,rgba(0,0,0,.66),#262626),var(--featured-img) !important;
-  background-size: 120% 1000px,100% auto !important;
-} */
-
-
-.genially-view-logo , .genially-view-logo_genially-watermark {
-display: none !important;
+.genially-view-logo,
+.genially-view-logo_genially-watermark {
+  display: none !important;
 }
