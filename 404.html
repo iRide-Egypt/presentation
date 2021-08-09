@@ -14,10 +14,12 @@
       <input
         id="password"
         type="text"
-        pattern="^4DHGF$|^4dhgf$|^test$|^TEST$|^Test$"
-        placeholder="Enter your presentation ID"
+        pattern="^4DHGF$|^TEST$"
+        placeholder="presentation ID"
         required="required"
         title="If you don't have an ID, please ask the Admins!"
+        style="text-transform: uppercase"
+        onkeyup="var start = this.selectionStart; var end = this.selectionEnd; this.value = this.value.toUpperCase(); this.setSelectionRange(start, end);"
       />
 
       <input id="login" type="checkbox" />
@@ -65,10 +67,12 @@
         return check;
       };
       function myFunction() {
-        if(window.mobileCheck()){
-            location.href = "/" + node.value+".m";
-        }else{
-            location.href = "/" + node.value;
+        const value = node.value;
+        if (!value) return;
+        if (window.mobileCheck()) {
+          location.href = "/" + value.toUpperCase() + ".m";
+        } else {
+          location.href = "/" + value.toUpperCase();
         }
       }
     </script>
